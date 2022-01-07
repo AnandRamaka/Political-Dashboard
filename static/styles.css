@@ -1,0 +1,60 @@
+body{
+    background-color: #EBECF0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.caption{
+    font-size: 20px;
+}
+
+.row{
+    margin-bottom: 6%;
+}
+
+.col{
+    display: block;
+}
+
+.text-cont{
+    padding: 2%;
+    height: 300px; 
+    overflow-y: scroll;
+    border-width: 6px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 1px;
+    background-color: lightgreen;
+}
+
+.negative{
+    border-color: red;
+    background-color: #ff9999;
+}
+
+img{
+    /* float:left; */
+    border-radius: 65px;
+    width: 100%;
+    object-fit: cover;
+    /* height: auto; */
+    aspect-ratio: 1;
+    border-style: solid;
+    border-width: 4px;
+    
+
+}
+
+.profile{
+    border-color: black;
+    border-width: 10px;
+    height: 100%;
+    /* display: block; */
+}
