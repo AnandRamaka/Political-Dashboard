@@ -1,5 +1,7 @@
 # Political-Dashboard
 
+View app deployed onto Heroku: https://political-dashboard.herokuapp.com/
+
 Instructions for use:
 
 pip install -r requirements.txt
