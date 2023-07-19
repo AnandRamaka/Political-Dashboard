@@ -11,10 +11,6 @@ app = Flask(__name__)
 # which URL is associated function
 @app.route('/', methods =["GET", "POST"])
 def gfg():
-   #  if request.method == "POST":
-      #  stock_choice = request.form.get("stock")
-      #  data = get_tweets( stock_choice, 20 )
-      #  return "Your chosen stock (" + stock_choice + ") has a polarity of " + str(round(data[1], 4))
       names = ["Bernie Sanders", "AOC", "Joe Biden", "Mitch McConnell", "Ted Cruz", "Donald Trump"]
       tweets = tweet_list(names)
       to_display = []
